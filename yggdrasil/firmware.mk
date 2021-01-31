@@ -1,6 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),GS290)
+ifeq ($(TARGET_DEVICE),yggdrasil)
 
 RADIO_FILES := $(wildcard $(LOCAL_PATH)/radio/*)
 $(foreach f, $(notdir $(RADIO_FILES)), \
